@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-
+const repo = "cheat";
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
 let assetPrefix = "";
