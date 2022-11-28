@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import Fav from ".././vercel.svg";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -62,7 +62,7 @@ export default function Home() {
         >
           Powered by{" "}
           <span className={styles.logo}>
-            <img src="/vercel.svg" alt="Vercel Logo" />
+            <img src={Fav} alt="Vercel Logo" />
           </span>
         </a>
       </footer>
