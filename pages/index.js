@@ -62,7 +62,7 @@ export default function Home() {
         >
           Powered by{" "}
           <span className={styles.logo}>
-            <img src={Fav} alt="Vercel Logo" />
+            <img src="../../public/vercel.svg" alt="Vercel Logo" />
           </span>
         </a>
       </footer>
