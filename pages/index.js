@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Fav from ".././vercel.svg";
+import Fav from "../vercel.svg";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
